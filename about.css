@@ -1,0 +1,49 @@
+:root {
+    --azure: #3882F6;
+    --emerald: #0B6E4F;
+    --amaranth: #DA3E52;
+    --banana: #F2E94E;
+    --graphite: #2f2f2f;
+    --white: #F9FAF8;
+    --gray: #E5E7EB;
+    --black: #000000;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 4px solid var(--azure);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.jaden {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    color: var(--graphite);
+    font-size: 18px;
+}
+
+.container.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    flex: 1;
+}
+
+.container.two h2 {
+    font-size: 36px;
+    color: var(--graphite);
+    font-weight: 900;
+}
